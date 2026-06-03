@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="100%" height="100%" fill="#f6f8fb"/>
+<text x="60" y="34" font-family="Arial" font-size="22" font-weight="700" fill="#1c232d">Position error: 20260602_191814_392</text>
+<rect x="60" y="60" width="780" height="300" fill="#ffffff" stroke="#c9d3df" stroke-width="2"/>
+<polyline points="185.38,173.41 233.85,72.51 279.86,60.00 435.11,116.91 487.70,163.35 531.12,74.05 657.01,113.96 740.07,66.93 785.62,82.16 840.00,240.38" fill="none" stroke="#b03737" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60" y="400" font-family="Arial" font-size="13" fill="#5f6a78">x=time in seconds, y=error in meters; max error shown=0.66m</text>
+</svg>

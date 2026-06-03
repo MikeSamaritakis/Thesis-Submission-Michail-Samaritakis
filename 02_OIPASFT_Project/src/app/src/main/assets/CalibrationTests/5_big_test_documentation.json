@@ -1,0 +1,74 @@
+{
+  "room": {
+    "width": 3.71,
+    "height": 3.33
+  },
+  "model": {
+    "pathLossExponent": 2.0,
+    "headingOffsetDegrees": 146.0,
+    "stepLengthMeters": 0.62,
+    "minStepLengthMeters": 0.35,
+    "maxStepLengthMeters": 0.72,
+    "minStepIntervalMs": 650,
+    "customStepPeakThreshold": 1.40,
+    "customStepResetThreshold": 0.35,
+    "customStepMaxGyro": 0.95,
+    "customStepMaxAbsPitchDegrees": 35.0,
+    "customStepMaxAbsRollDegrees": 35.0,
+    "rssiAverageWindowSize": 3,
+    "bleMinDistanceMeters": 0.08,
+    "bleDistanceMarginMeters": 1.25,
+    "bleBoundaryClampMarginMeters": 0.20,
+    "bleMaxJumpMeters": 2.5,
+    "bleResidualRejectMeters": 0.85
+  },
+  "floorPlan": [
+    [1, 0, 0, 0, 1],
+    [0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0],
+    [0, 0, 0, 0, 0],
+    [1, 0, 0, 0, 1]
+  ],
+  "beacons": [
+    {
+      "id": "go6G",
+      "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+      "major": 20642,
+      "minor": 50360,
+      "position": { "row": 0, "col": 0 },
+      "rssi1Meter": -80
+    },
+    {
+      "id": "f2gk",
+      "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+      "major": 61711,
+      "minor": 12887,
+      "position": { "row": 0, "col": 4 },
+      "rssi1Meter": -76
+    },
+    {
+      "id": "yiBb",
+      "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+      "major": 43294,
+      "minor": 40290,
+      "position": { "row": 4, "col": 0 },
+      "rssi1Meter": -86
+    },
+    {
+      "id": "3PpN",
+      "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+      "major": 4797,
+      "minor": 26248,
+      "position": { "row": 4, "col": 4 },
+      "rssi1Meter": -85
+    },
+    {
+      "id": "xBVg",
+      "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+      "major": 23862,
+      "minor": 6390,
+      "position": { "row": 2, "col": 2 },
+      "rssi1Meter": -77
+    }
+  ]
+}

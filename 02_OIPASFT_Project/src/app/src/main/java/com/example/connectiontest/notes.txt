@@ -1,0 +1,14 @@
+last test did not show f2gk beacon for some reason, making trilateration values non existent since there where not enough beacons detected (<3)
+
+all three beacons detected, trilateration still not showing in the logs
+started separating files based on functionality, also must separate init processes from main
+
+separated initapp from mainactivity
+hid apikey in a separate file not tracked by git
+finished fixing the file structure for now
+started working on trilateration class and ble signal smoothing
+
+trilateration started working as expected, now the signal is very unstable and needs smoothing etc.
+fixed ui a little
+instead of a 5x5 now I use a custom sized grid
+started working on signal smoothing, averaging last few values to get a more stable signal

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img">
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 12 6 L 0 12 z" fill="#475569"/></marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.10"/></filter>
+</defs>
+<title>Experiment Logging and Report Generation Workflow</title>
+<rect x="0" y="0" width="1500" height="820" fill="#f8fafc"/>
+
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0f172a" text-anchor="start">Experiment Logging and Report Generation Workflow</text>
+<text x="60" y="108" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#475569" text-anchor="start">Local Android logs are collected first; thesis-ready CSV/SVG outputs are generated after pulling logs into the project folder.</text>
+<rect x="60" y="180" width="250" height="150" rx="18" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)"/>
+<rect x="60" y="180" width="250" height="10" rx="5" fill="#3b82f6"/>
+<text x="78" y="222" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">1. Android app run</text>
+<text x="78" y="254" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">OIPASFT_Project records</text>
+<text x="78" y="276" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">timestamped position samples</text>
+<text x="78" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">during BLE/PDR/Fusion</text>
+<text x="78" y="320" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">operation.</text>
+<rect x="365" y="180" width="250" height="150" rx="18" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" filter="url(#shadow)"/>
+<rect x="365" y="180" width="250" height="10" rx="5" fill="#22c55e"/>
+<text x="383" y="222" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">2. Local log files</text>
+<text x="383" y="254" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">UserPositionHistory writes</text>
+<text x="383" y="276" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">CSV and JSON under Android</text>
+<text x="383" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">external files / TestLogs.</text>
+<rect x="670" y="180" width="250" height="150" rx="18" fill="#fff7ed" stroke="#f97316" stroke-width="2" filter="url(#shadow)"/>
+<rect x="670" y="180" width="250" height="10" rx="5" fill="#f97316"/>
+<text x="688" y="222" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">3. Pull from phone</text>
+<text x="688" y="254" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">pull-test-logs.ps1 copies</text>
+<text x="688" y="276" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">the Android TestLogs</text>
+<text x="688" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">directory into the project</text>
+<text x="688" y="320" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">workspace via adb.</text>
+<rect x="975" y="180" width="250" height="150" rx="18" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2" filter="url(#shadow)"/>
+<rect x="975" y="180" width="250" height="10" rx="5" fill="#8b5cf6"/>
+<text x="993" y="222" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">4. Generate report data</text>
+<text x="993" y="254" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">generate-thesis-report.ps1</text>
+<text x="993" y="276" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">reads JSON logs and optional</text>
+<text x="993" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">evaluation annotations.</text>
+<rect x="610" y="515" width="300" height="160" rx="18" fill="#ecfdf5" stroke="#10b981" stroke-width="2" filter="url(#shadow)"/>
+<rect x="610" y="515" width="300" height="10" rx="5" fill="#10b981"/>
+<text x="628" y="557" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">5. Thesis outputs</text>
+<text x="628" y="589" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">thesis_sessions_summary.csv</text>
+<text x="628" y="611" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">thesis_samples.csv</text>
+<text x="628" y="633" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">path/error SVG figures</text>
+<text x="628" y="655" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">final metric tables</text>
+<line x1="310" y1="255" x2="365" y2="255" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="615" y1="255" x2="670" y2="255" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="920" y1="255" x2="975" y2="255" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1100" y1="330" x2="760" y2="515" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="60" y="515" width="440" height="160" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/>
+<text x="80" y="555" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">Important evaluation rule</text>
+<text x="80" y="587" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">Manual anchors are logged as trace context and</text>
+<text x="80" y="609" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">tracker resets. They are excluded from final</text>
+<text x="80" y="631" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">accuracy metrics. Static ground-truth</text>
+<text x="80" y="653" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">annotations are added later.</text>
+<rect x="1000" y="515" width="420" height="160" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/>
+<text x="1020" y="555" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0f172a" text-anchor="start">Final sprint dependency</text>
+<text x="1020" y="587" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">Numerical results such as mean error, RMSE,</text>
+<text x="1020" y="609" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">max error, and improvement percentage remain</text>
+<text x="1020" y="631" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">blank until evaluationSamples &gt; 0.</text>
+</svg>

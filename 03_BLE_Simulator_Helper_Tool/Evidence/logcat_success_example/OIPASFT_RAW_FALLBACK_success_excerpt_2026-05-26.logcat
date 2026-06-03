@@ -1,0 +1,24 @@
+Logcat evidence excerpt for thesis validation.
+Source context: OIPASFT scanner and detector application running on the Ulefone Armor 22.
+Purpose: Demonstrates that the BLE Simulator advertisement for SamA15 was parsed through the raw iBeacon fallback path, matched to the known beacon configuration, and used by the BLE positioning pipeline.
+
+2026-05-26 17:09:25.547 26904-26904 MainActivity            com.example.connectiontest           D  All requested permissions granted in callback
+2026-05-26 17:09:25.566 26904-26904 MainActivity            com.example.connectiontest           I  RAW_BLE: debug scan started; watch for RAW_BLE iBeacon lines
+2026-05-26 17:09:25.657 26904-26904 JsonOps                 com.example.connectiontest           D  UUID from JSON: f7826da6-4fa2-4e98-8024-bc5b71e0893e
+2026-05-26 17:09:25.729 26904-26904 BeaconManager           com.example.connectiontest           D  RAW_FALLBACK: Beacon f7826da6-4fa2-4e98-8024-bc5b71e0893e|20641|50361 id=SamA15 is now: 1.4125376 from user
+2026-05-26 17:09:25.729 26904-26904 BeaconManagerBEACON_MAP com.example.connectiontest           D  source=RAW_FALLBACK id=SamA15 uuid=f7826da6-4fa2-4e98-8024-bc5b71e0893e major=20641 minor=50361 col(X)=4 row(Y)=4 xMeters=1.85 yMeters=1.7 exactMeters=false
+2026-05-26 17:09:25.729 26904-26904 MainActivity            com.example.connectiontest           I  RAW_BLE: iBeacon address=55:9C:E4:36:71:9E rssi=-83 uuid=f7826da6-4fa2-4e98-8024-bc5b71e0893e major=20641 minor=50361 measuredPower=-80 key=f7826da6-4fa2-4e98-8024-bc5b71e0893e|20641|50361 fallbackAccepted=true
+2026-05-26 17:09:26.048 26904-26904 MainActivity            com.example.connectiontest           D  BLE_SCAN: onIBeaconsUpdated listSize=1
+2026-05-26 17:09:26.048 26904-26904 MainActivity            com.example.connectiontest           D  BLE_POS: include fresh fallback solve beacon id=SamA15 key=f7826da6-4fa2-4e98-8024-bc5b71e0893e|20641|50361 ageMs=319
+2026-05-26 17:09:26.049 26904-26904 PositioningEngine       com.example.connectiontest           D  BLE_DISTANCE: id=SamA15 row=4 col=4 x=1.85 y=1.70 rawRssi=-83 medianRssi=-83 avgRssi=-83.0 rssi1m=-80 n=2.00 samples=1 avgWindow=3 dist=1.41 quality=0.33 gate=keep
+2026-05-26 17:09:26.050 26904-26904 TrilaterationUtils      com.example.connectiontest           D  Multilateration result (m): x=1.01 y=0.80 using 3 beacons avgWindow=3
+2026-05-26 17:09:26.050 26904-26904 TrilaterationUtils      com.example.connectiontest           D  Multilateration beacons: RAW_iBeacon, RAW_iBeacon, RAW_iBeacon
+2026-05-26 17:09:26.051 26904-26904 MainActivity            com.example.connectiontest           I  FUSION_OUTPUT: positioningMode=FUSION source=BLE raw=(1.01,0.80)
+2026-05-26 17:09:32.224 26904-26904 MainActivity            com.example.connectiontest           D  BLE_POS: include fresh fallback solve beacon id=SamA15 key=f7826da6-4fa2-4e98-8024-bc5b71e0893e|20641|50361 ageMs=98
+2026-05-26 17:09:32.228 26904-26904 PositioningEngine       com.example.connectiontest           D  BLE_DISTANCE: id=SamA15 row=4 col=4 x=1.85 y=1.70 rawRssi=-72 medianRssi=-73 avgRssi=-73.0 rssi1m=-80 n=2.00 samples=10 avgWindow=3 dist=0.45 quality=0.95 gate=keep
+2026-05-26 17:09:32.235 26904-26904 TrilaterationUtils      com.example.connectiontest           D  Multilateration result (m): x=1.00 y=1.65 using 3 beacons avgWindow=3
+2026-05-26 17:09:32.241 26904-26904 MainActivity            com.example.connectiontest           I  FUSION_OUTPUT: positioningMode=FUSION source=BLE raw=(1.00,1.65)
+2026-05-26 17:09:38.988 26904-26904 MainActivity            com.example.connectiontest           D  BLE_POS: include fresh fallback solve beacon id=SamA15 key=f7826da6-4fa2-4e98-8024-bc5b71e0893e|20641|50361 ageMs=230
+2026-05-26 17:09:39.003 26904-26904 PositioningEngine       com.example.connectiontest           D  BLE_DISTANCE: id=SamA15 row=4 col=4 x=1.85 y=1.70 rawRssi=-72 medianRssi=-76 avgRssi=-76.0 rssi1m=-80 n=2.00 samples=10 avgWindow=3 dist=0.63 quality=0.80 gate=keep
+2026-05-26 17:09:39.013 26904-26904 TrilaterationUtils      com.example.connectiontest           D  Multilateration result (m): x=0.94 y=1.82 using 3 beacons avgWindow=3
+2026-05-26 17:09:39.020 26904-26904 MainActivity            com.example.connectiontest           I  FUSION_OUTPUT: positioningMode=FUSION source=BLE raw=(0.94,1.70)

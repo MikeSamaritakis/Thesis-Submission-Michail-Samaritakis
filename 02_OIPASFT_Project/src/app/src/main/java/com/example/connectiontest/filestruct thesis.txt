@@ -1,0 +1,30 @@
+├── com.example.connectiontest
+│   ├── BeaconManager
+│   │   ├── BeaconLocation.java
+│   │   ├── BeaconManager.java
+│   │   └── bleBeacon.java
+│   ├── initApp
+│   │   └── InitApp.java
+│   ├── JsonOps
+│   │   └── JsonOps.java
+│   ├── SensorManager
+│   │   └── SensorManager.java
+│   ├── TrilaterationUtils
+│   │   ├── CoordinateUtils.java
+│   │   ├── PositionGate.java
+│   │   └── TrilaterationUtils.java
+│   ├── UIUtils
+│   │   └── UIUtils.java
+│   ├── ui
+│   │   └── theme
+│   │       ├── Color.kt
+│   │       ├── Theme.kt
+│   │       └── Type.kt
+│   ├── FileLogger.java
+│   ├── MainActivity.java
+│   ├── TrackingDashboardView.java
+│   ├── filestruct thesis.txt
+│   ├── notes.txt
+│   └── testList.md
+
+create a file with the same format as this and fill in with the folder and file structure of the project

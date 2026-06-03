@@ -1,0 +1,79 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<rect width="100%" height="100%" fill="#f6f8fb"/>
+<text x="70" y="36" font-family="Arial" font-size="22" font-weight="700" fill="#1c232d">Path trace: 20260602_225335_352</text>
+<rect x="70" y="70" width="760" height="510" fill="#ffffff" stroke="#c9d3df" stroke-width="2"/>
+<line x1="70.00" y1="70" x2="70.00" y2="580" stroke="#e8edf4"/>
+<line x1="70" y1="70.00" x2="830" y2="70.00" stroke="#e8edf4"/>
+<line x1="260.00" y1="70" x2="260.00" y2="580" stroke="#e8edf4"/>
+<line x1="70" y1="197.50" x2="830" y2="197.50" stroke="#e8edf4"/>
+<line x1="450.00" y1="70" x2="450.00" y2="580" stroke="#e8edf4"/>
+<line x1="70" y1="325.00" x2="830" y2="325.00" stroke="#e8edf4"/>
+<line x1="640.00" y1="70" x2="640.00" y2="580" stroke="#e8edf4"/>
+<line x1="70" y1="452.50" x2="830" y2="452.50" stroke="#e8edf4"/>
+<line x1="830.00" y1="70" x2="830.00" y2="580" stroke="#e8edf4"/>
+<line x1="70" y1="580.00" x2="830" y2="580.00" stroke="#e8edf4"/>
+<polyline points="454.86,506.23 257.57,196.95 457.33,503.38 542.96,555.72 588.17,580.00 640.94,580.00 483.04,548.01 583.46,580.00 657.72,580.00 392.79,548.38 307.27,580.00 307.27,580.00 311.01,580.00 355.30,580.00 425.44,580.00 605.50,465.92 762.24,540.44 830.00,580.00" fill="none" stroke="#1c846f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="454.86" cy="506.23" r="6" fill="#de962d"/>
+<circle cx="257.57" cy="196.95" r="6" fill="#6b4bb8"/>
+<circle cx="457.33" cy="503.38" r="6" fill="#de962d"/>
+<circle cx="542.96" cy="555.72" r="6" fill="#de962d"/>
+<circle cx="588.17" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="640.94" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="483.04" cy="548.01" r="6" fill="#de962d"/>
+<circle cx="583.46" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="657.72" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="392.79" cy="548.38" r="6" fill="#de962d"/>
+<circle cx="307.27" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="307.27" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="311.01" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="355.30" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="425.44" cy="580.00" r="6" fill="#1c846f"/>
+<circle cx="605.50" cy="465.92" r="6" fill="#de962d"/>
+<circle cx="762.24" cy="540.44" r="6" fill="#1c846f"/>
+<circle cx="830.00" cy="580.00" r="6" fill="#1c846f"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="60.00" y1="70.00" x2="80.00" y2="70.00" stroke="#6b4bb8" stroke-width="3"/>
+<line x1="70.00" y1="60.00" x2="70.00" y2="80.00" stroke="#6b4bb8" stroke-width="3"/>
+<circle cx="70.00" cy="70.00" r="8" fill="#3768aa" stroke="#ffffff" stroke-width="3"/>
+<text x="82.00" y="60.00" font-family="Arial" font-size="13" fill="#1c232d">go6G</text>
+<circle cx="70.00" cy="580.00" r="8" fill="#3768aa" stroke="#ffffff" stroke-width="3"/>
+<text x="82.00" y="570.00" font-family="Arial" font-size="13" fill="#1c232d">yiBb</text>
+<circle cx="830.00" cy="580.00" r="8" fill="#3768aa" stroke="#ffffff" stroke-width="3"/>
+<text x="842.00" y="570.00" font-family="Arial" font-size="13" fill="#1c232d">SamA15</text>
+<circle cx="450.00" cy="325.00" r="8" fill="#3768aa" stroke="#ffffff" stroke-width="3"/>
+<text x="462.00" y="315.00" font-family="Arial" font-size="13" fill="#1c232d">Red10</text>
+<text x="70" y="626" font-family="Arial" font-size="13" fill="#5f6a78">green=render/fused path, orange=BLE fix, purple=anchor, cross=ground truth when present</text>
+</svg>

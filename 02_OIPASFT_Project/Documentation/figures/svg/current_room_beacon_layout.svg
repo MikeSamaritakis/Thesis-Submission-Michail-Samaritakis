@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1050" viewBox="0 0 1200 1050" role="img">
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 12 6 L 0 12 z" fill="#475569"/></marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.10"/></filter>
+</defs>
+<title>Current Room Beacon Layout</title>
+<rect x="0" y="0" width="1200" height="1050" fill="#f8fafc"/>
+
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0f172a" text-anchor="start">Current Room and Beacon Layout</text>
+<text x="60" y="108" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#475569" text-anchor="start">Active calibration from current_test.json: 2.50 m x 2.50 m room mapped to a 5x5 grid.</text>
+<rect x="130" y="150" width="820" height="820" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+<line x1="130.0" y1="150" x2="130.0" y2="970" stroke="#e2e8f0" stroke-width="2"/>
+<text x="130.0" y="1002" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="middle">col 0</text>
+<line x1="335.0" y1="150" x2="335.0" y2="970" stroke="#e2e8f0" stroke-width="2"/>
+<text x="335.0" y="1002" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="middle">col 1</text>
+<line x1="540.0" y1="150" x2="540.0" y2="970" stroke="#e2e8f0" stroke-width="2"/>
+<text x="540.0" y="1002" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="middle">col 2</text>
+<line x1="745.0" y1="150" x2="745.0" y2="970" stroke="#e2e8f0" stroke-width="2"/>
+<text x="745.0" y="1002" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="middle">col 3</text>
+<line x1="950.0" y1="150" x2="950.0" y2="970" stroke="#e2e8f0" stroke-width="2"/>
+<text x="950.0" y="1002" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="middle">col 4</text>
+<line x1="130" y1="150.0" x2="950" y2="150.0" stroke="#e2e8f0" stroke-width="2"/>
+<text x="105" y="155.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="end">row 0</text>
+<line x1="130" y1="355.0" x2="950" y2="355.0" stroke="#e2e8f0" stroke-width="2"/>
+<text x="105" y="360.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="end">row 1</text>
+<line x1="130" y1="560.0" x2="950" y2="560.0" stroke="#e2e8f0" stroke-width="2"/>
+<text x="105" y="565.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="end">row 2</text>
+<line x1="130" y1="765.0" x2="950" y2="765.0" stroke="#e2e8f0" stroke-width="2"/>
+<text x="105" y="770.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="end">row 3</text>
+<line x1="130" y1="970.0" x2="950" y2="970.0" stroke="#e2e8f0" stroke-width="2"/>
+<text x="105" y="975.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="end">row 4</text>
+<circle cx="130.0" cy="150.0" r="18" fill="#2563eb" stroke="#ffffff" stroke-width="5"/>
+<text x="155.0" y="132.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="start">go6G</text>
+<text x="155.0" y="156.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#475569" text-anchor="start">(0,0) = (0.00 m, 0.00 m)</text>
+<circle cx="130.0" cy="970.0" r="18" fill="#2563eb" stroke="#ffffff" stroke-width="5"/>
+<text x="155.0" y="1005.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="start">yiBb</text>
+<text x="155.0" y="1029.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#475569" text-anchor="start">(0,4) = (0.00 m, 2.50 m)</text>
+<circle cx="950.0" cy="970.0" r="18" fill="#2563eb" stroke="#ffffff" stroke-width="5"/>
+<text x="925.0" y="1005.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="end">SamA15</text>
+<text x="925.0" y="1029.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#475569" text-anchor="end">(4,4) = (2.50 m, 2.50 m)</text>
+<circle cx="540.0" cy="560.0" r="18" fill="#2563eb" stroke="#ffffff" stroke-width="5"/>
+<text x="565.0" y="542.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="start">Red10</text>
+<text x="565.0" y="566.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#475569" text-anchor="start">(2,2) = (1.25 m, 1.25 m)</text>
+<line x1="130" y1="1040" x2="380" y2="1040" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="400" y="1046" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#334155" text-anchor="start">x / columns</text>
+<line x1="60" y1="150" x2="60" y2="400" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="55" y="435" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#334155" text-anchor="middle">y / rows</text>
+<circle cx="1030" cy="205" r="15" fill="#2563eb"/>
+<text x="1060" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#334155" text-anchor="start">BLE transmitter</text>
+<text x="1010" y="270" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475569" text-anchor="start">All transmitter positions are</text>
+<text x="1010" y="292" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475569" text-anchor="start">derived from the grid because</text>
+<text x="1010" y="314" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475569" text-anchor="start">current_test.json does not</text>
+<text x="1010" y="336" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475569" text-anchor="start">define explicit positionMeters</text>
+<text x="1010" y="358" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475569" text-anchor="start">values.</text>
+</svg>
